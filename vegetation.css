@@ -6,12 +6,12 @@
 }
 
 .carousel-item {
-  height: 60vh;
+  height: auto;
 }
 
 .carousel-item > img {
-  width: 32vw;
-  height: 60vh;
+  width: 37vw;
+  height: auto;
 }
 
 .carousel-control-prev {
@@ -40,22 +40,22 @@
 @media (max-width: 1100px) {
   /* Bump up size of carousel content */
   .carousel-item {
-    height: 40vh !important;
+    height: auto !important;
   }
   .carousel-item > img {
     width: 32vw !important;
-    height: 40vh !important;
+    height: auto !important;
   }
 }
 
 @media (max-width: 850px) {
   /* Bump up size of carousel content */
   .carousel-item {
-    height: 30vh !important;
+    height: auto !important;
   }
   .carousel-item > img {
     width: 50vw !important;
-    height: 30vh !important;
+    height: auto !important;
   }
 }
 
